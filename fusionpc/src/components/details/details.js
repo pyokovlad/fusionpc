@@ -1,11 +1,26 @@
 import '/workspaces/fusionpc/fusionpc/src/components/details/details.css';
+import {
+    BrowserRouter as Router,
+    Route,
+    Routes,
+    Link
+} from "react-router-dom";
+
+import Assemblies from '/workspaces/fusionpc/fusionpc/src/pages/assemblies/assemblies.js';
+import Components from '/workspaces/fusionpc/fusionpc/src/pages/components/components.js';
+import Periphery from '/workspaces/fusionpc/fusionpc/src/pages/periphery/periphery.js';
+
+
 import sigma from '/workspaces/fusionpc/fusionpc/src/components/img/Frame 6.png';
 import moon from '/workspaces/fusionpc/fusionpc/src/components/img/Frame 7.png';
 import proc from '/workspaces/fusionpc/fusionpc/src/components/img/proc.png';
 import keyboard from '/workspaces/fusionpc/fusionpc/src/components/img/keyboard.png';
 
+
+
 function Details() {
     return (
+        
         <div>
             <div class="product-pc">
                 <div class="product-card">
@@ -23,7 +38,7 @@ function Details() {
                         — AeroCool Cylon 600w <br/>
                         <div class="color">Корпус</div>
                         — Zalman I3-Edge black</p>
-                        <button>Приобрести</button>
+                        <button><Link to ='/Assemblies'>Приобрести</Link></button>
                     </div>
                 </div>
                 <div class="product-card">
@@ -41,7 +56,7 @@ function Details() {
                         — AeroCool Cyleno 600w <br/>
                         <div class="color">Корпус</div>
                         — Formula F33-Black</p>
-                        <button>Приобрести</button>
+                        <button><Link to ='/Assemblies'>Приобрести</Link></button>
                     </div>
                 </div>
             </div>
@@ -54,7 +69,7 @@ function Details() {
                         впоследствии находим лучший вариант <br/>
                         сборки для него, после чего начинаем <br/>
                         сборку и отдаем клиенту.</p>
-                        <button>Подобрать</button>
+                        <button><Link to ='/Components'>Подобрать</Link></button>
                     </div>
                     <img src={proc}></img> 
                 </div>
@@ -66,12 +81,15 @@ function Details() {
                         впоследствии находим лучший вариант <br/>
                         сборки для него, после чего начинаем <br/>
                         сборку и отдаем клиенту.</p>
-                        <button>Подобрать</button>
+                        <button><Link to ='/Periphery'>Подобрать</Link></button>
                     </div>
                     <img src={keyboard}></img> 
                 </div>
             </div>
+
+                
         </div>
+       
     );
   }
   
