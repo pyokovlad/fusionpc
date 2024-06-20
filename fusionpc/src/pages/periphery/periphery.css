@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    background-color: black;
+    color: white;
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-top: -50px;
+}
+
+.product-card img {
+    max-width: 300px; 
+}
+.product-info h2 {
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.product-info {
+    margin: 122px 129px;
+}
+.product-info .color {
+    color: #e1a200;
+    font-weight: bold;
+}
+.product-info button {
+    display: block;
+    margin: 30px auto 0; 
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: #e1a200;
+    border: #e1a200;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.product-info button:hover {
+    background-color: rgb(248, 124, 79);
+}
+.product-info button:active {
+    background-color: rgb(202, 82, 38);
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.product-other-card {
+    display: flex;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-top: -50px;
+}
+.product-other-card img {
+  max-width: 300px;
+}
+.product-other-info h2 {
+  
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+.product-other-info {
+  margin: 122px 129px;
+}
+.product-other-info .color {
+  color: #e1a200;
+    font-weight: bold;
+}
+.product-other-info button {
+  display: block;
+  margin: 30px auto 0; 
+  padding: 10px 25px;
+  border-radius: 15px;
+  background-color: #e1a200;
+  border: #e1a200;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.product-other-info button:hover {
+  background-color: rgb(248, 124, 79);
+}
+.product-other-info button:active {
+  background-color: rgb(202, 82, 38);
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.product-other-info p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.product-other {
+    margin-top: 150px;
+}
+
+.product-other .per {
+    font-family: 'Krona One', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+}
+.product-other-card .price {
+  color: #e1a200;
+    font-weight: bold;
+    font-size: 46px;
+    margin-top: 10px;
+}

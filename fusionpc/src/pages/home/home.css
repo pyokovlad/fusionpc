@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(/workspaces/fusionpc/fusionpc/src/components/img/FONNN.png);
+    font-family: 'Krona One', sans-serif;
+}
+h1 {
+    font-family: 'Krona One', sans-serif;
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+}
+.subheader {
+    margin-bottom: 20px;
+    width: 451px;
+    height: auto;
+}
+.text_button {
+    font-family: 'Krona One', sans-serif;
+    color: black;
+    
+    font-weight: bold;
+}
