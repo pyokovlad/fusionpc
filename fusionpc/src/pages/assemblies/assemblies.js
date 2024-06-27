@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import '/workspaces/fusionpc/fusionpc/src/pages/assemblies/assemblies.css';
 import sigma from '/workspaces/fusionpc/fusionpc/src/components/img/Frame 6.png'
 import moon from '/workspaces/fusionpc/fusionpc/src/components/img/moonpc.png'
-import pro from '/workspaces/fusionpc/fusionpc/src/components/img/Proffesional.png';
-import purple from '/workspaces/fusionpc/fusionpc/src/components/img/purple.png';
+
 
 import Footer from '/workspaces/fusionpc/fusionpc/src/components/footer/footer.js'
 
@@ -48,44 +47,6 @@ export default class Assemblies extends Component {
                         <div class="color">Корпус</div>
                         — Formula F33-Black</p>
                         <p class="price">246 100Р</p>
-                        <button>Приобрести</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                <img src={pro}></img> 
-                    <div class="product-info">
-                        <h2>PRO PC</h2>
-                        <p><div class="color">Процессор</div> — INTEL CORE I5-13400 <br/>
-                        <div class="color">Видеокарта</div> —
-                        GEFORCE RTX 4070 SUPER DUAL <br/>
-                        <div class="color">ОЗУ</div>
-                        — Patriot Viper Steel 3200Mhz 2x16gb <br/>
-                        <div class="color">Материнская плата</div> —
-                        Asus B450M K-II <br/>
-                        <div class="color">Блок питания</div>
-                        — AeroCool Cylon 600w <br/>
-                        <div class="color">Корпус</div>
-                        — Zalman I3-Edge black</p>
-                        <p class="price">158 000Р</p>
-                        <button>Приобрести</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                <img src={purple}></img> 
-                    <div class="product-info">
-                        <h2>MOON PC</h2>
-                        <p><div class="color">Процессор</div> — INTEL CORE I5-13600K <br/>
-                        <div class="color">Видеокарта</div> —
-                        GEFORCE RTX 4070 SUPER DUAL <br/>
-                        <div class="color">ОЗУ</div>
-                        — Patriot Viper Steel 3200Mhz 2x16gb <br/>
-                        <div class="color">Материнская плата</div> —
-                        Gigabyte Aorus V2 <br/>
-                        <div class="color">Блок питания</div>
-                        — AeroCool Cyleno 600w <br/>
-                        <div class="color">Корпус</div>
-                        — Formula F33-Black</p>
-                        <p class="price">199 600Р</p>
                         <button>Приобрести</button>
                     </div>
                 </div>

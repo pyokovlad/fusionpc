@@ -12,7 +12,7 @@ import Periphery from '/workspaces/fusionpc/fusionpc/src/pages/periphery/periphe
 
 
 import sigma from '/workspaces/fusionpc/fusionpc/src/components/img/Frame 6.png';
-import moon from '/workspaces/fusionpc/fusionpc/src/components/img/Frame 7.png';
+import moon from '/workspaces/fusionpc/fusionpc/src/components/img/moonpc.png'
 import proc from '/workspaces/fusionpc/fusionpc/src/components/img/proc.png';
 import keyboard from '/workspaces/fusionpc/fusionpc/src/components/img/keyboard.png';
 

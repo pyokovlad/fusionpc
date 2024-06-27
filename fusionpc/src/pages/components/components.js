@@ -34,32 +34,6 @@ export default class Components extends Component {
                     </div>
                     <img src={proc}></img> 
                 </div>
-                <div class="product-other-card">
-                    <div class="product-other-info">
-                        <h2>AMD Ryzen 5 7500F</h2>
-                        <p>Общее количество ядер: 6<br/>
-                            Базовая частота процессора: 3.7 ГГц<br/>
-                            Тип памяти: DDR5<br/>
-                            Тепловыделение: 65 Вт</p>
-                            <p class="price">19 999Р</p>
-                        <button>Купить</button>
-                    </div>
-                    <img src={proc}></img> 
-                </div>
-                <div class="product-other-card">
-                    <div class="product-other-info">
-                        <h2>AMD Ryzen 5 5600GT</h2>
-                        <p>Общее количество ядер: 6<br/>
-                            Базовая частота процессора: 3.6 ГГц<br/>
-                            Тип памяти: DDR4<br/>
-                            Тепловыделение: 65 Вт<br/>
-                            Максимальная частота графического ядра: 1900 МГц <br/></p>
-                            <p class="price">17 699Р</p>
-                        <button>Купить</button>
-                    </div>
-                    <img src={proc}></img> 
-                </div>
-                
             </div>
         )
     }
